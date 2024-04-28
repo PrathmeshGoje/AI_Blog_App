@@ -12,6 +12,8 @@ import assemblyai as aai
 import google.generativeai as genai
 from .models import BlogPost
 import string
+from dotenv import load_dotenv
+load_dotenv()
 
 # Create your views here.
 @login_required
